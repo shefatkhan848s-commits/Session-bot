@@ -6,10 +6,10 @@ from telethon import TelegramClient, events, errors
 from telethon.sessions import StringSession
 
 # --- CONFIGURATION ---
-API_ID = ''
-API_HASH = ''
-BOT_TOKEN = ''
-ADMIN_ID =   # Numeric ID of the admin
+API_ID = '36736825'
+API_HASH = '7a9151096f37c8f2f607a30b70cb7bbb'
+BOT_TOKEN = '8362451939:AAFtii75jcGgI1wWeeZTH6IEXFn5BmP_rKI'
+ADMIN_ID = 8375085555  # Numeric ID of the admin
 
 bot = TelegramClient('bot_session', API_ID, API_HASH).start(bot_token=BOT_TOKEN)
 
